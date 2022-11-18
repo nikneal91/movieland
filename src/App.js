@@ -50,7 +50,7 @@ const API_URL = 'https://www.omdbapi.com/?i=tt3896198&apikey=bdd1a886';
             </div>
        
         {
-            movies.length > 0 ? (
+            movies?.length > 0 ? (
                 <div className="container">
                     
                     { 
